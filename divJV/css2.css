@@ -1,0 +1,72 @@
+body{
+    display: flex;
+     flex-direction: column;
+}
+
+  /* Estilos específicos para cada cuadro */
+  #cuadro1 {
+    display: grid; 
+    place-items: center;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  #cuadro2 {
+    display: grid; 
+    place-items: center;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  #cuadro3 {
+    display: grid; 
+    place-items: center;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  #cuadro4 {
+    display: grid; 
+    place-items: center;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  #cuadro5 {
+    display: grid; 
+    place-items: center;
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  /*Estilos específicos para cada contenedor */
+  #contenedor_uno{
+    display: flex; 
+    justify-content: space-between;
+  }
+
+  #contenedor_dos{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+  }
+
+  #contenedor_tres{
+    display: flex; 
+    justify-content: space-between;
+  }
